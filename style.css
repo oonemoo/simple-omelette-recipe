@@ -1,0 +1,127 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (min-width: 375px) and (max-width: 1440px) {
+      body {
+        padding: 20px;
+      }
+      img {
+        width: 100%;
+      }
+      p, li {
+        font-size: 18px;
+      }
+      h3 {
+        font-size: 28px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    :root {
+      --bg-container: hsl(0, 0%, 100%);
+      --bg-body: hsl(30, 54%, 90%);
+      --bg-preparation: hsl(330, 100%, 98%);
+      --paragraph-font: font-size: 16px;
+      --nutrition-color: hsl(14, 45%, 36%);
+      --dark-brown: hsl(14, 45%, 36%);
+    }
+    * {
+      margin: 0;
+    }
+    body {
+      background: var(--bg-body);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 10px;
+    }
+    .container {
+      background: var(--bg-container);
+      width: 600px;
+      height: auto;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      }
+      .container img {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        align-items: center;
+      }
+      .header p{
+        padding: 10px;
+      }
+      .image-container {
+        margin-bottom: 25px;
+        display: block;
+        height: auto;        
+        margin: 0 auto;
+        padding: 10px;
+      }
+      .preparation {
+        background: var(--bg-preparation);
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .preparation li::marker {
+        color: var(--dark-brown);
+      }
+      .ingredients {
+         border-bottom: 1px solid #EDEDED;
+         padding: 10px;
+      }
+      .ingredients li::marker {
+        color: var(--dark-brown);
+      }
+      .instruction {
+        border-bottom: 1px solid #EDEDED;
+      }
+      .instruction li {
+        list-style-type: upper-greek;
+        padding: 10px;
+      }
+      .instruction li::marker {
+        color: var(--dark-brown);
+      }
+      h1, h2 {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      p, ul {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: var(--paragraph-font);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 15px;
+      }
+      .nutrition {
+        padding: 10px;
+      }
+      .dark-brown{
+        color: var(--dark-brown);
+      }
+      .nutrition table tr {
+        border-bottom: 1px solid #EDEDED;
+      }
+      .nutrition table tr:last-child {
+        border-bottom: none;
+      }
+      .nutrition table td {
+        padding:10px 30px;
+      }
+      
