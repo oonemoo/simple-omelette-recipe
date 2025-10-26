@@ -40,7 +40,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 I learned the :root, ::market, 
 
-
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
