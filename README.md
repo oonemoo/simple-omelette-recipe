@@ -15,8 +15,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [@Solution] ([https://oonemoo.github.io/simple-omelette-recipe/](https://www.frontendmentor.io/solutions/simple-omelette-recipe-xU--oK2s1U))
-- Live Site URL:[@Live Site]  (https://oonemoo.github.io/simple-omelette-recipe/m)
+- Solution URL: [@Solution](https://www.frontendmentor.io/solutions/simple-omelette-recipe-xU--oK2s1U)
+- Live Site URL:[@Live Site](https://oonemoo.github.io/simple-omelette-recipe/)
 
 
 ### Built with
