@@ -30,5 +30,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Website - [@oonemoo](https://oonemoo.github.io/simple-omelette-recipe/)
 - Frontend Mentor - [@oonemoo](https://www.frontendmentor.io/profile/oonemoo)
 - Github - [@oonemoo] (https://www.github.com/oonemoo)
-)
 
